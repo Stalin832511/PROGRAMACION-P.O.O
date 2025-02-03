@@ -23,3 +23,5 @@ hilo2.join()
 hilo3.join()
 
 print('Programa principal: Todas las tareas han sido completadas.')
+
+input("Presiona Enter para salir...")
