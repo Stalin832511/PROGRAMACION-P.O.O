@@ -1,9 +1,9 @@
-import tkinter as tk
+import  as tk
 from functools import partial  # Importamos partial para evitar problemas en los botones
 
 # Función para agregar un carácter al campo de entrada
 def agregar_caracter(caracter):
-    texto_actual = entrada.get()
+    texto_actual = entrada.gettkinter()
     # Evita que haya un cero innecesario al inicio
     if texto_actual == "0" and caracter.isdigit():
         entrada.delete(0, tk.END)
