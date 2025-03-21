@@ -23,3 +23,4 @@ boton.pack(pady=5)
 # Ejecutar la aplicación
 ventana.mainloop()
 
+
